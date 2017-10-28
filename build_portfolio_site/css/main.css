@@ -1,0 +1,367 @@
+body {
+	font-family: 'Open Sans', sans-serif; 
+}
+
+.column {
+	width: 50%;
+	height: 125px;
+} 
+
+.header-left {
+}
+
+.header-right {
+	text-align: right;
+}
+
+.header-container {
+	display: flex;	
+	margin: 0 auto;
+}
+
+.header-left img {
+	max-height: 70%;
+	padding-top: 5%;
+	width: auto;
+}
+
+.name {
+	font-weight: lighter;
+	font-size: 3.25em;
+	margin-bottom: 0px;
+	margin-top: 15px;
+}
+
+.title {
+	margin-top: 0px;
+    font-weight: normal;
+    font-size: 1.25em;
+}
+
+.line {
+	background-color: #7d97ad;
+}
+
+.upper {
+	text-transform: uppercase;
+	color: #2d3c49
+}
+
+.main-img-container {
+	display: flex;	
+	margin: 0 auto;
+	max-height: 450px;
+	overflow: hidden;
+}
+
+.main-img img {
+	width: auto;
+	height: auto;
+	margin-top: 3%;
+	max-width: 100%;
+}
+
+.featured-work {
+	display: flex;	
+	margin: 0 auto;
+	font-size: 2em;
+	color: #7d97ad;
+	letter-spacing: 1px;
+	padding-left: 1.5%;
+}
+
+.section-title p {
+	margin-bottom: 10px;
+}
+
+.article-row {
+	height: 300px;
+	border-color: black;
+	border-width: 2px;
+	display: flex;	
+	margin: 0 auto;	
+	text-align: center;
+}
+
+.three-column {
+	width: 30%;
+	position: relative;
+	padding-right: 5%;
+}
+
+#portfolio {
+	padding-right: 0px;
+}
+
+.article-img {
+	width: 100%;
+	height: auto;
+}
+
+.article-title {
+	text-align: center;
+	font-size: 2em;
+	font-weight: lighter;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.url {
+	text-align: center;
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+	color: #2d3c49;
+}
+
+.header-container, .line, .main-img-container, .featured-work, .article-row {
+		width: 80%;
+		max-width: 1000px;
+}
+
+.line {
+	height: 3px;
+}
+
+.article-img {
+	position: relative;
+	display: inline-block;
+}
+
+.article-img img {
+	max-width: 100%;
+	height: auto;
+	width: 100%;
+	background-position: center center;
+	float: left;
+}
+
+/*Medium Desktop*/
+@media screen and (min-width: 1000px) and (max-width: 1275px){
+	.name {
+		font-size: 3em;
+	}
+
+	.title {
+		font-size: 1.1em
+	}
+
+	.article-img img {
+		height: auto;
+	}
+
+	.article-title {
+		font-size: 1.55em;
+	}
+
+	.url {
+		font-size: 10px;
+	}
+
+	.featured-work {
+		font-size: 1.75em;
+	}
+}
+/*Small Desktop*/
+@media screen and (min-width: 780px) and (max-width: 999px){
+
+	.header-left img {
+		max-height: 65%;
+	}
+
+	.name {
+		font-size: 2.5em;
+	}
+
+	.title {
+		font-size: 1em
+	}
+	
+	.article-img img {
+		height: auto;
+	}
+
+	.article-title {
+		font-size: 1.2em;
+	}
+
+	.url {
+		font-size: 10px;
+		overflow-wrap: break-word;
+	}
+
+	.featured-work {
+		font-size: 1.5em;
+	}
+}
+
+/*Tablet*/
+@media screen and (min-width: 650px) and (max-width: 779px){
+
+	.header-container, .line, .main-img-container, .featured-work, .article-row {
+		width: 85%;
+	}
+
+	.header-left img {
+		max-height: 75%;
+	}
+
+	.line {
+		height: 2px; 
+	}
+
+	.name {
+		font-size: 2.25em;
+	}
+
+	.title {
+		font-size: 1em
+	}
+	
+	.article-img img {
+		height: auto;
+	}
+
+	.article-title {
+		font-size: 1em;
+	}
+
+	.url {
+		font-size: 10px;
+		overflow-wrap: break-word;
+	}
+
+	.column {
+		height: 100px;
+	}
+
+	.article-row {
+		height: auto;
+	}
+
+	.featured-work {
+		font-size: 1.5em;
+	}
+}
+
+/*Small Tablet or Large Mobile Sizes */
+@media screen and (min-width: 500px) and (max-width: 649px){
+
+	.header-container, .line, .main-img-container, .featured-work, .article-row {
+		width: 85%;
+	}
+
+	.header-left img {
+		max-height: 70%;
+		padding-top: 8%;
+	}
+
+	.name {
+		font-size: 1.75em;
+	}
+
+	.line {
+		height: 2px; 
+	}
+
+	.title {
+		font-size: .9em
+	}
+	
+	.column {
+		height: 80px;
+	}
+
+	.article-img img {
+		height: auto;
+	}
+
+	.article-title {
+		font-size: .8em;
+	}
+
+	.url {
+		font-size: 10px;
+		overflow-wrap: break-word;
+	}
+
+	.article-row {
+		height: auto;
+	}
+
+	.featured-work {
+		font-size: 1.3em;
+	}
+}
+
+/**/
+@media screen and (max-width: 499px){
+
+	.header-container, .line, .main-img-container, .featured-work, .article-row {
+		width: 90%;
+	}
+
+	.header-left img {
+		max-height: 70%;
+		padding-top: 15%;
+	}
+
+	.header-left {
+		width: 30%;
+	}
+
+	.header-right {
+		width: 70%;
+	}
+
+	.name {
+		margin-top: 7px;
+		font-size: 1.5em;
+	}
+
+	.title {
+		font-size: .75em
+	}
+
+	.line {
+		height: 1.25px; 
+	}
+
+	.column {
+		height: 70px;
+	}
+	
+	.article-img img {
+		height: auto;
+	}
+
+	.article-title {
+		font-size: .9em;
+		margin: 0px;
+	}
+
+	.url {
+		font-size: 10px;
+		overflow-wrap: break-word;
+	}
+
+	.section-title p {
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+
+	.featured-work {
+		font-size: 1.2em;
+	}
+
+	.article-row {
+		height: auto;
+	}
+
+	#portfolio .article-title {
+	    margin-top: 10px;
+    	margin-bottom: 19px;
+	}
+}
